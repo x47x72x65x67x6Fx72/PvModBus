@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_power"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_peak_active_power"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/power_string_peak_active_power"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_peak_active_power"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_power"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_active_power"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/power_string_active_power"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_active_power"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_power"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_reactive_power"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/power_string_reactive_power"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_reactive_power"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_fragment_arrow"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_power_factor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/power_string_power_factor"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_power_factor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_freq"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_grid_frequency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/power_string_grid_frequency"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_grid_frequency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_fragment_arrow"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_efficiency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/power_string_efficiency"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_efficiency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_temp"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_internal_temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/power_string_internal_temperature"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_internal_temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_resistance"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_insulation_resistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/power_string_insulation_resistance"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_insulation_resistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_meter"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_powermeter_collection_active_power"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/power_string_powermeter_collection_active_power"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_powermeter_collection_active_power"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

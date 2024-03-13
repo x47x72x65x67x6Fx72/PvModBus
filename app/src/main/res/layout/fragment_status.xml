@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_nav_status"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_state_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/status_string_state_1"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_state_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_nav_status"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_state_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/status_string_state_2"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_state_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_nav_status"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_state_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/status_string_state_3"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_state_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_alart"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_alarm_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/status_string_alarm_1"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_alarm_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_alart"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_alarm_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/status_string_alarm_2"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_alarm_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_alart"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_alarm_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/status_string_alarm_3"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_alarm_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_nav_status"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_device_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/status_string_device_status"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_device_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_error"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_fault_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/status_string_fault_code"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_fault_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_clock"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_startup_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/status_string_startup_time"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_startup_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_clock"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_shutdown_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/status_string_shutdown_time"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_shutdown_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

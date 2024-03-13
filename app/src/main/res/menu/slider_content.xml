@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_nav_settings"
+            android:title="@string/content_title_settings" />
+
+        <item
+            android:id="@+id/nav_general"
+            android:icon="@drawable/ic_nav_general"
+            android:title="@string/content_title_general" />
+
+        <item
+            android:id="@+id/nav_power"
+            android:icon="@drawable/ic_nav_power"
+            android:title="@string/content_title_power" />
+
+        <item
+            android:id="@+id/nav_pv"
+            android:icon="@drawable/ic_nav_pv"
+            android:title="@string/content_title_pv" />
+
+        <item
+            android:id="@+id/nav_status"
+            android:icon="@drawable/ic_nav_status"
+            android:title="@string/content_title_status" />
+
+        <item
+            android:id="@+id/nav_storage"
+            android:icon="@drawable/ic_nav_storage"
+            android:title="@string/content_title_storage" />
+
+        <item
+            android:id="@+id/nav_phase"
+            android:icon="@drawable/ic_nav_phase"
+            android:title="@string/content_title_phase" />
+
+    </group>
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_general">
+
+    <fragment
+        android:id="@+id/nav_general"
+        android:name="x47x72x65x67x6Fx72.PVModbus.ui.general.GeneralFragment"
+        android:label="@string/content_title_general"
+        tools:layout="@layout/fragment_general" />
+
+    <fragment
+        android:id="@+id/nav_power"
+        android:name="x47x72x65x67x6Fx72.PVModbus.ui.power.PowerFragment"
+        android:label="@string/content_title_power"
+        tools:layout="@layout/fragment_power" />
+
+    <fragment
+        android:id="@+id/nav_pv"
+        android:name="x47x72x65x67x6Fx72.PVModbus.ui.pv.PvFragment"
+        android:label="@string/content_title_pv"
+        tools:layout="@layout/fragment_pv" />
+
+    <fragment
+        android:id="@+id/nav_status"
+        android:name="x47x72x65x67x6Fx72.PVModbus.ui.status.StatusFragment"
+        android:label="@string/content_title_status"
+        tools:layout="@layout/fragment_status" />
+
+    <fragment
+        android:id="@+id/nav_storage"
+        android:name="x47x72x65x67x6Fx72.PVModbus.ui.storage.StorageFragment"
+        android:label="@string/content_title_storage"
+        tools:layout="@layout/fragment_storage" />
+
+    <fragment
+        android:id="@+id/nav_phase"
+        android:name="x47x72x65x67x6Fx72.PVModbus.ui.phase.PhaseFragment"
+        android:label="@string/content_title_phase"
+        tools:layout="@layout/fragment_phase" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="x47x72x65x67x6Fx72.PVModbus.ui.settings.SettingsFragment"
+        android:label="@string/content_title_settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

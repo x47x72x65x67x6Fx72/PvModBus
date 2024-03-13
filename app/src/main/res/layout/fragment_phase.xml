@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_power"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_input_power"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phase_string_input_power"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_input_power"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_voltage"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_line_voltage_between_a_and_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phase_string_line_voltage_between_a_and_b"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_line_voltage_between_a_and_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_voltage"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_line_voltage_between_b_and_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phase_string_line_voltage_between_b_and_c"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_line_voltage_between_b_and_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_voltage"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_line_voltage_between_c_and_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phase_string_line_voltage_between_c_and_a"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_line_voltage_between_c_and_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_voltage"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_a_voltage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phase_string_a_voltage"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_a_voltage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_voltage"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_b_voltage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phase_string_b_voltage"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_b_voltage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_voltage"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_c_voltage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phase_string_c_voltage"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_c_voltage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_ampere"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_a_current"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phase_string_a_current"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_a_current"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_ampere"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_b_current"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phase_string_b_current"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_b_current"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/table_space_height">
+
+            <ImageView
+                android:id="@+id/img_row_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_img_ampere"
+                app:tint="@color/icon_color" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/title_c_current"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phase_string_c_current"
+                android:textSize="@dimen/title_text_size" />
+
+            <Space
+                android:layout_width="@dimen/table_space_width"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/out_txt_c_current"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_placeholder_text"
+                android:textSize="@dimen/output_text_size" />
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

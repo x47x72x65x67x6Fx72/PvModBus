@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name" translatable="false">PVModBus</string>
+    <string name="initial_placeholder_text" translatable="false">-</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+
+
+    <!--SETTINGS_STRINGS-->
+    <string name="settings_string_ip">IP-Address: </string>
+    <string name="settings_string_port">Port: </string>
+    <string name="settings_string_unitid">Unit-ID: </string>
+    <string name="settings_string_timeout">Timeout[ms]: </string>
+
+
+
+    <!--FRAGMENT_GENERAL_STRINGS-->
+    <string name="general_string_model_id">Model-ID: </string>
+
+    <string name="general_string_number_of_pv_strings">Number of pv-strings: </string>
+    <string name="general_string_number_of_mpp_trackers">Number of mpp-trackers: </string>
+
+    <string name="general_string_rated_power">Rated-power: </string>
+    <string name="general_string_maximum_active_power">Active-power: </string>
+    <string name="general_string_maximum_apparent_power">Apparent-power: </string>
+    <string name="general_string_maximum_reactive_power_fed_to_grid">Reactive-power (to Grid): </string>
+    <string name="general_string_maximum_reactive_power_absorbed_from_grid">Reactive-power (from Grid): </string>
+
+    <string name="general_string_accumulated_energy_yield">Accumulated energy yield: </string>
+    <string name="general_string_daily_energy_yield">Daily energy yield: </string>
+
+
+
+    <!--FRAGMENT_PHASE_STRINGS-->
+    <string name="phase_string_input_power">Input-power: </string>
+
+    <string name="phase_string_line_voltage_between_a_and_b">Voltage [A - B]: </string>
+    <string name="phase_string_line_voltage_between_b_and_c">Voltage [B - C]: </string>
+    <string name="phase_string_line_voltage_between_c_and_a">Voltage [C - A]: </string>
+
+    <string name="phase_string_a_voltage">Phase A Voltage: </string>
+    <string name="phase_string_b_voltage">Phase B Voltage: </string>
+    <string name="phase_string_c_voltage">Phase C Voltage: </string>
+
+    <string name="phase_string_a_current">Phase A Current: </string>
+    <string name="phase_string_b_current">Phase B Current: </string>
+    <string name="phase_string_c_current">Phase C Current: </string>
+
+
+
+    <!--FRAGMENT_POWER_STRINGS-->
+    <string name="power_string_peak_active_power">Peak active: </string>
+    <string name="power_string_active_power">Active: </string>
+    <string name="power_string_reactive_power">Reactive: </string>
+
+    <string name="power_string_power_factor">Factor: </string>
+    <string name="power_string_grid_frequency">Grid freq.: </string>
+    <string name="power_string_efficiency">Efficiency: </string>
+    <string name="power_string_internal_temperature">Internal temperature: </string>
+    <string name="power_string_insulation_resistance">Resistance: </string>
+
+    <string name="power_string_powermeter_collection_active_power">PowerMeter: </string>
+
+
+
+    <!--FRAGMENT_PV_STRINGS-->
+    <string name="pv_string_pv1_voltage">PV1 Voltage: </string>
+    <string name="pv_string_pv1_current">PV1 Current: </string>
+
+    <string name="pv_string_pv2_voltage">PV2 Voltage: </string>
+    <string name="pv_string_pv2_current">PV2 Current: </string>
+
+    <string name="pv_string_pv3_voltage">PV3 Voltage: </string>
+    <string name="pv_string_pv3_current">PV3 Current: </string>
+
+    <string name="pv_string_pv4_voltage">PV4 Voltage: </string>
+    <string name="pv_string_pv4_current">PV4 Current: </string>
+
+
+
+    <!--FRAGMENT_STATUS_STRINGS-->
+    <string name="status_string_state_1">Status 1: </string>
+    <string name="status_string_state_2">Status 2: </string>
+    <string name="status_string_state_3">Status 3: </string>
+
+    <string name="status_string_alarm_1">Alarm 1: </string>
+    <string name="status_string_alarm_2">Alarm 2: </string>
+    <string name="status_string_alarm_3">Alarm 3: </string>
+
+    <string name="status_string_device_status">Device-status: </string>
+    <string name="status_string_fault_code">Fault-code: </string>
+    <string name="status_string_startup_time">Startup: </string>
+    <string name="status_string_shutdown_time">Shutdown: </string>
+
+
+
+    <!--FRAGMENT_STORAGE_STRINGS-->
+    <string name="storage_string_running_status">Status: </string>
+    <string name="storage_string_charge_and_discharge_power">(Dis-)Charge-power: </string>
+    <string name="storage_string_current_day_charge_capacity">Charge-capacity: </string>
+    <string name="storage_string_current_day_discharge_capacity">Discharge-capacity: </string>
+
+
+
+    <!--SLIDER_CONTENT_TITLE_STRINGS-->
+    <string name="content_title_general">General</string>
+    <string name="content_title_phase">Phase</string>
+    <string name="content_title_power">Power</string>
+    <string name="content_title_pv">Solar</string>
+    <string name="content_title_status">Status</string>
+    <string name="content_title_storage">Battery</string>
+    <string name="content_title_settings">Settings</string>
+
+
+
+    <!--SLIDER_HEADER_STRINGS-->
+    <string name="slider_header_string_model">Model: </string>
+    <string name="slider_header_string_sn">Serialnumber: </string>
+    <string name="slider_header_string_pn">Productnumber: </string>
+</resources>
